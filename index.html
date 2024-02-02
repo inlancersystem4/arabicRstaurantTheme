@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="rtl">
+<html lang="en" dir="ltr">
 
 <head>
     <meta charset="UTF-8">
@@ -11,8 +11,7 @@
 </head>
 
 <body>
-
-    <header class="px-4	pt-6 flex items-center justify-between rtl:flex-row--reverse ltr:flex-row">
+    <header class="px-4	pt-6 flex items-center justify-between flex-row">
 
         <p class="text-lg text-themeColor6">الآسيوي<span class="text-themeColor1"> المذاق</span></p>
 
@@ -61,7 +60,8 @@
             class="w-[160px] h-[160px] sm:w-[320px] sm:h-[320px] lg:w-[798px] lg:h-[798px] rounded-full bg-themeColor1 absolute top-6 -left-1/4 blur-sm lg:-left-1/2 lg:top-0 -z-10  opacity-20">
         </div>
 
-        <div class="absolute top-6 rtl:left-0 rtl:sm:-left-12 ltr:sm:-right-12 ltr:sm:left-auto ltr:left-auto -z-10 ltr:transform ltr:scale-x-[-1.5] ltr:scale-y-[1.2] ltr:scale-z-[1.5] sm:-mt-12">
+        <div
+            class="absolute top-6 rtl:left-0 ltr:right-0 rtl:sm:-left-12 ltr:sm:-right-12 ltr:sm:left-auto ltr:left-auto -z-10 ltr:transform ltr:scale-x-[-1.5] ltr:scale-y-[1.2] ltr:scale-z-[1.5] sm:-mt-12">
 
             <img src="./images/image_1.png" alt="image_1" class="w-[100px] sm:w-[240px] h-auto" />
             <img src="./images/image_2.png" alt="image_2" class="w-[100px] -mt-8 sm:w-[240px] sm:-mt-24 h-auto" />
@@ -117,7 +117,9 @@
 
             <div class="max-w-[361px] lg:block hidden space-y-20 ">
 
-                <h2 class="text-center text-4xl font-semibold sm:text-7xl lg:text-6xl lg:text-right">لكل ما تحتاجينه هو
+                <h2
+                    class="text-center text-4xl font-semibold sm:text-7xl lg:text-6xl ltr:lg:text-left rtl:lg:text-right">
+                    لكل ما تحتاجينه هو
                     تطبيق واحد</h2>
 
                 <button class="btn-regualr bg-themeColor6 text-themeColor1">
@@ -125,7 +127,7 @@
                 </button>
             </div>
 
-            <div class="flex items-center relative lg:flex-1 lg:-mr-36">
+            <div class="flex items-center relative lg:flex-1 rtl:lg:-mr-36 ltr:lg:mr-36">
 
                 <img src="./images/application_img.png" alt="application_img"
                     class="w-[200px] sm:w-[320px] mx-auto h-auto">
@@ -137,9 +139,9 @@
             <div class="space-y-9">
 
                 <div
-                    class="flex items-center rtl:flex-row-reverse flex-row rtl:lg:flex-col-reverse rtl:lg:items-start  justify-between w-full gap-4 lg:gap-12">
+                    class="flex items-center rtl:flex-row-reverse flex-row rtl:lg:flex-col-reverse ltr:lg:flex-col rtl:lg:items-start ltr:lg:items-end  justify-between w-full gap-4 lg:gap-12">
 
-                    <div class="text-right">
+                    <div class="rtl:text-right ltr:text-left">
                         <h6 class="text-3xl sm:text-5xl	font-semibold">10+</h6>
                         <p class="text-lg sm:text-2xl">الأفرع</p>
                     </div>
@@ -184,7 +186,7 @@
                     دعمكم المستمر.
                 </p>
 
-                <div class="flex items-center gap-4 sm:flex-row-reverse sm:justify-end">
+                <div class="flex items-center gap-4 sm:flex-row-reverse lrt:sm:justify-end rtl:sm:justify-end">
                     <div class="flex items-center rtl:flex-row-reverse flex-row  -space-x-3">
                         <img src="./images/avatar.png" alt="avatar_1" class="w-16 h-16 rounded-full object-cover" />
                         <img src="./images/avatar_1.png" alt="avatar_1" class="w-16 h-16 rounded-full object-cover" />
@@ -200,7 +202,9 @@
     <section class="py-8 px-4 space-y-10 sm:space-y-20 sm:px-0">
 
         <div class="custom-container">
-            <h4 class="text-4xl sm:text-7xl text-right font-semibold sm:px-4 lg:max-w-[608px]">أشياء رائعة فريدة من نوعها</h4>
+            <h4 class="text-4xl sm:text-7xl rtl:text-right ltr:text-left font-semibold sm:px-4 lg:max-w-[608px]">أشياء
+                رائعة فريدة من
+                نوعها</h4>
         </div>
 
         <div class="space-y-10 sm:space-y-20 lg:space-y-0 lg:flex lg:items-center lg:gap-12">
@@ -226,14 +230,14 @@
                 </ul>
             </div>
 
-            <ul class="sm:overflow-x-auto sm:flex  sm:gap-4 sm:pb-4 lg:w-full">
+            <ul class="sm:overflow-x-auto sm:flex  sm:gap-4 sm:pb-4 lg:w-full space-y-4 sm:space-y-0">
                 <li class="w-full bg-themeColor4 rounded-[40px] p-8 sm:min-w-[390px] sm:max-w-[390px]">
                     <div class="w-full rounded-3xl overflow-hidden relative pt-[200px]">
                         <img src="./images/food_img_1.png" alt="img"
                             class="absolute inset-0 w-full h-full object-cover">
                     </div>
                     <div class="py-7 space-y-3.5">
-                        <h4 class="text-2xl text-right font-semibold">ساموراي الخاص</h4>
+                        <h4 class="text-2xl rtl:text-right ltr:text-left text-right font-semibold">ساموراي الخاص</h4>
                         <span class="bg-white rounded-full px-6 py-1 block w-fit">طبق العائلة</span>
                     </div>
                     <div class="flex items-center flex-row rtl:flex-row-reverse">
@@ -262,7 +266,7 @@
                             class="absolute inset-0 w-full h-full object-cover">
                     </div>
                     <div class="py-7 space-y-3.5">
-                        <h4 class="text-2xl text-right font-semibold">ساموراي الخاص</h4>
+                        <h4 class="text-2xl rtl:text-right ltr:text-left text-right font-semibold">ساموراي الخاص</h4>
                         <span class="bg-white rounded-full px-6 py-1 block w-fit">طبق العائلة</span>
                     </div>
                     <div class="flex items-center flex-row rtl:flex-row-reverse">
@@ -291,7 +295,7 @@
                             class="absolute inset-0 w-full h-full object-cover">
                     </div>
                     <div class="py-7 space-y-3.5">
-                        <h4 class="text-2xl text-right font-semibold">ساموراي الخاص</h4>
+                        <h4 class="text-2xl rtl:text-right ltr:text-left text-right font-semibold">ساموراي الخاص</h4>
                         <span class="bg-white rounded-full px-6 py-1 block w-fit">طبق العائلة</span>
                     </div>
                     <div class="flex items-center flex-row rtl:flex-row-reverse">
@@ -330,37 +334,37 @@
 
         <div class="lg:space-y-32">
 
-            <h4 class="text-4xl text-right sm:text-7xl font-semibold lg:block hidden">قتجربة كورا</h4>
+            <h4 class="text-4xl rtl:text-right ltr:text-left sm:text-7xl font-semibold lg:block hidden">قتجربة كورا</h4>
 
             <ul class="space-y-14">
-                <li class="flex items-start rtl:flex-row flex-row-reverse gap-2.5 sm:gap-8">
+                <li class="flex items-start flex-row  gap-2.5 sm:gap-8">
                     <div
                         class="min-w-[56px] min-h-[56px] max-w-[56px] max-h-[56px] rounded-full bg-themeColor1 flex items-center justify-center">
                         <h6 class="text-2xl font-bold">01</h6>
                     </div>
-                    <div class="space-y-3 text-right">
+                    <div class="space-y-3 rtl:text-right ltr:text-left">
                         <h4 class="text-2xl sm:text-3xl	 font-semibold">المكونات الممتازة</h4>
                         <p class="text-xl text-themeColor2">من السوشي إلى المرق وحتى الحلويات، جميع أطباقنا خالية من
                             المحليات الصناعية والتوابل والمواد الحافظة والألوان.</p>
                     </div>
                 </li>
-                <li class="flex items-start rtl:flex-row flex-row-reverse gap-2.5 sm:gap-8">
+                <li class="flex items-start flex-row gap-2.5 sm:gap-8">
                     <div
                         class="min-w-[56px] min-h-[56px] max-w-[56px] max-h-[56px] rounded-full bg-themeColor1 flex items-center justify-center">
                         <h6 class="text-2xl font-bold">02</h6>
                     </div>
-                    <div class="space-y-3 text-right">
+                    <div class="space-y-3 rtl:text-right ltr:text-left">
                         <h4 class="text-2xl sm:text-3xl	 font-semibold">االيابانية الأصليةة</h4>
                         <p class="text-xl text-themeColor2">مأطباقنا تلتزم بالفضيلة اليابانية في تقديم الوجبات الطبيعية
                             والصحية. نحن نستخدم فقط مكونات متميزة جديدة للتذوق.ان.</p>
                     </div>
                 </li>
-                <li class="flex items-start rtl:flex-row flex-row-reverse gap-2.5 sm:gap-8">
+                <li class="flex items-start flex-row gap-2.5 sm:gap-8">
                     <div
                         class="min-w-[56px] min-h-[56px] max-w-[56px] max-h-[56px] rounded-full bg-themeColor1 flex items-center justify-center">
                         <h6 class="text-2xl font-bold">03</h6>
                     </div>
-                    <div class="space-y-3 text-right">
+                    <div class="space-y-3 rtl:text-right ltr:text-left">
                         <h4 class="text-2xl sm:text-3xl	 font-semibold">ادائما طازجة ودراجاتة</h4>
                         <p class="text-xl text-themeColor2">مبراءة إختراعنا للسيد الطازج غطاء السوشي وتكنولوجيا تتبع
                             الصحن
@@ -387,7 +391,7 @@
             </div>
 
             <img src="./images/section_img_4.png" alt="section_img_4"
-                class="sm:w-full max-w-full  h-auto lg:h-[448px] lg:object-cover rounded-3xl mr-12 lg:w-1/2" />
+                class="sm:w-full max-w-full  h-auto lg:h-[448px] lg:object-cover rounded-3xl lg:mr-12 lg:w-1/2" />
 
             <div class="space-y-10 lg:w-1/2">
 
@@ -400,7 +404,8 @@
 
                 </div>
 
-                <div class="space-y-2.5 text-right sm:flex sm:space-y-0 sm:flex-wrap sm:gap-x-8 sm:gap-y-6">
+                <div
+                    class="space-y-2.5 rtl:text-right ltr:text-left sm:flex sm:space-y-0 sm:flex-wrap sm:gap-x-8 sm:gap-y-6">
 
                     <h6 class="text-lg font-semibold sm:block sm:w-full">ساعات العمل</h6>
                     <p class="text-xl text-themeColor2">م. ف: 10 ص -11 م</p>
@@ -458,7 +463,7 @@
             </p>
 
             <div
-                class="flex items-start rtl:flex-row-reverse flex-row sm:flex-wrap-reverse sm:items-center sm:justify-center sm:w-full sm:gap-10 lg:flex-1 lg:rtl:flex-row-reverse lg:flex-nowrap lg:justify-center">
+                class="flex items-start flex-row-reverse sm:flex-wrap-reverse sm:items-center sm:justify-center sm:w-full sm:gap-10 lg:flex-1 lg:rtl:flex-row-reverse lg:flex-nowrap lg:justify-center">
 
                 <div
                     class="flex flex-col sm:flex-row gap-10 sm:flex-1 sm:w-full sm:justify-center lg:flex-none lg:w-fit rtl:lg:justify-end">
